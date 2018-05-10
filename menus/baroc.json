@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle baroc",
+        "command": "baroc:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "baroc",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "baroc:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
